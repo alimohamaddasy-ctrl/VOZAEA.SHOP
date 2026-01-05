@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>فروشگاه امید</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #1abc9c, #16a085);
+      color: white;
+      padding: 30px 15px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 15px;
+      opacity: 0.95;
+    }
+    nav {
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    nav a {
+      text-decoration: none;
+      color: #16a085;
+      font-weight: bold;
+    }
+    .container {
+      padding: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      background: #ddd;
+    }
+    .product h3 {
+      margin: 15px 0 5px;
+      font-size: 18px;
+    }
+    .price {
+      color: #27ae60;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+    .product button {
+      background: #27ae60;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .about {
+      background: white;
+      margin-top: 40px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      line-height: 1.9;
+    }
+    footer {
+      margin-top: 40px;
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>فروشگاه امید</h1>
+  <p>هر خرید، یک قدم برای ساختن دنیایی بدون فقر</p>
+</header>
+
+<nav>
+  <a href="#products">محصولات</a>
+  <a href="#about">درباره ما</a>
+</nav>
+
+<div class="container" id="products">
+  <h2>محصولات</h2>
+  <div class="products">
+
+    <div class="product">
+      <img alt="product" />
+      <h3>محصول شماره ۱</h3>
+      <p class="price">100,000 تومان</p>
+      <button>افزودن به سبد خرید</button>
+    </div>
+
+    <div class="product">
+      <img alt="product" />
+      <h3>محصول شماره ۲</h3>
+      <p class="price">200,000 تومان</p>
+      <button>افزودن به سبد خرید</button>
+    </div>
+
+    <div class="product">
+      <img alt="product" />
+      <h3>محصول شماره ۳</h3>
+      <p class="price">150,000 تومان</p>
+      <button>افزودن به سبد خرید</button>
+    </div>
+
+  </div>
+
+  <div class="about" id="about">
+    <h2>درباره ما</h2>
+    <p>
+      این فروشگاه با یک هدف بزرگ ساخته شده: ایجاد درآمد سالم، ساخت شغل، و کمک به
+      کاهش فقر. هر محصولی که اینجا فروخته می‌شود، قدمی است برای آموزش، اشتغال و
+      ساختن آینده‌ای بهتر برای انسان‌ها.
+    </p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 فروشگاه امید | ساخته شده توسط یک نوجوان با هدفی بزرگ</p>
+</footer>
+
+</body>
+</html>
